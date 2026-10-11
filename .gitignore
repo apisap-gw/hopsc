@@ -1,0 +1,18 @@
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Python virtual environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local operating-system and test artifacts
+.DS_Store
+.pytest_cache/
+
+# Local editor skill links into the virtual environment
+.agents/skills/developing-with-streamlit
+.claude/skills/developing-with-streamlit
